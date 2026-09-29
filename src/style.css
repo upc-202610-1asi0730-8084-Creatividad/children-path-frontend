@@ -1,0 +1,41 @@
+﻿:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    --sidebar-width: 280px;
+    --topbar-height: 78px;
+    --kw-blue-700: #136fa8;
+    --kw-blue-900: #0b315d;
+    --kw-yellow-500: #f6b73c;
+    --kw-yellow-100: #fff4d8;
+    --kw-card: #ffffff;
+    --kw-border: #dbe5ef;
+    --kw-ink: #0f172a;
+    --kw-muted: #64748b;
+    --kw-shadow: 0 18px 40px rgba(16, 52, 89, .08);
+}
+
+body {
+    margin: 0;
+}
+
+body.dark-theme {
+    --kw-card: #0f172a;
+    --kw-border: #1e293b;
+    --kw-ink: #f1f5f9;
+    --kw-muted: #94a3b8;
+}
+
+#app {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Material Symbols setup */
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    font-size: 22px;
+    vertical-align: middle;
+}

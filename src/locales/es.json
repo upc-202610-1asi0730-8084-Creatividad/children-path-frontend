@@ -1,0 +1,69 @@
+﻿{
+  "app": {
+    "name": "Children Path",
+    "tagline": "Movilidad escolar inteligente"
+  },
+  "layout": {
+    "coreModules": "Módulos principales",
+    "signOut": "Cerrar sesión",
+    "homeAria": "Ir al inicio"
+  },
+  "actions": {
+    "toggleMenu": "Alternar menú de navegación",
+    "toggleTheme": "Alternar modo oscuro",
+    "openProfile": "Abrir menú de perfil"
+  },
+  "topbar": {
+    "language": "Idioma",
+    "notifications": "Notificaciones"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "fleet": "Flota",
+    "drivers": "Conductores",
+    "routes": "Rutas",
+    "students": "Estudiantes",
+    "assignments": "Asignaciones",
+    "tracking": "Rastreo en vivo",
+    "trips": "Viajes",
+    "attendance": "Asistencia",
+    "notifications": "Notificaciones",
+    "incidents": "Incidencias",
+    "analytics": "Analíticas",
+    "companies": "Empresas"
+  },
+  "home": {
+    "eyebrow": "Children Path",
+    "title": "Una forma más segura de mover a cada niño",
+    "subtitle": "Rastreo en tiempo real, alertas inteligentes y tranquilidad para padres, conductores y empresas de transporte escolar.",
+    "cta": "Abrir panel",
+    "roleTitle": "Rol actual",
+    "enabledModules": "Módulos habilitados",
+    "staticVersion": "Vista previa estática",
+    "trips": "Viajes activos",
+    "students": "Estudiantes",
+    "alerts": "Alertas",
+    "modules": "Módulos",
+    "quick": "Acceso rápido",
+    "performance": "Rendimiento del servicio",
+    "summary": "Resumen mensual",
+    "coverage": "Cobertura de rutas",
+    "nextActions": "Próximas acciones",
+    "quickAccess": "Acceso rápido"
+  },
+  "profile": {
+    "status": "Perfil",
+    "title": "Tu perfil",
+    "subtitle": "Administra tu información personal y preferencias."
+  },
+  "development": {
+    "status": "En desarrollo",
+    "message": "Este módulo está siendo desarrollado por el equipo de Children Path.",
+    "hint": "Vuelve pronto para explorar sus funcionalidades."
+  },
+  "authoring-phrase": {
+    "intro": "Hecho con",
+    "use": "utilizando",
+    "author": "por el Equipo de Desarrollo de {brand}"
+  }
+}

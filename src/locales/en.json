@@ -1,0 +1,69 @@
+﻿{
+  "app": {
+    "name": "Children Path",
+    "tagline": "Smart school mobility"
+  },
+  "layout": {
+    "coreModules": "Core modules",
+    "signOut": "Sign out",
+    "homeAria": "Go to home"
+  },
+  "actions": {
+    "toggleMenu": "Toggle navigation menu",
+    "toggleTheme": "Toggle dark mode",
+    "openProfile": "Open profile menu"
+  },
+  "topbar": {
+    "language": "Language",
+    "notifications": "Notifications"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "fleet": "Fleet",
+    "drivers": "Drivers",
+    "routes": "Routes",
+    "students": "Students",
+    "assignments": "Assignments",
+    "tracking": "Live Tracking",
+    "trips": "Trips",
+    "attendance": "Attendance",
+    "notifications": "Notifications",
+    "incidents": "Incidents",
+    "analytics": "Analytics",
+    "companies": "Companies"
+  },
+  "home": {
+    "eyebrow": "Children Path",
+    "title": "A safer way to move every child",
+    "subtitle": "Real-time tracking, smart alerts and peace of mind for parents, drivers and school transport companies.",
+    "cta": "Open dashboard",
+    "roleTitle": "Current role",
+    "enabledModules": "Enabled modules",
+    "staticVersion": "Static preview",
+    "trips": "Active trips",
+    "students": "Students",
+    "alerts": "Alerts",
+    "modules": "Modules",
+    "quick": "Quick access",
+    "performance": "Service performance",
+    "summary": "Monthly summary",
+    "coverage": "Route coverage",
+    "nextActions": "Next actions",
+    "quickAccess": "Quick access"
+  },
+  "profile": {
+    "status": "Profile",
+    "title": "Your profile",
+    "subtitle": "Manage your personal information and preferences."
+  },
+  "development": {
+    "status": "Under development",
+    "message": "This module is currently being developed by the Children Path team.",
+    "hint": "Come back soon to explore its features."
+  },
+  "authoring-phrase": {
+    "intro": "Made with",
+    "use": "using",
+    "author": "by {brand} Developer Team"
+  }
+}
