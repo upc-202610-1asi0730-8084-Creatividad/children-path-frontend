@@ -141,3 +141,4 @@ const useNotificationsStore = defineStore('notifications', () => {
         iconFor
     };
 });
+

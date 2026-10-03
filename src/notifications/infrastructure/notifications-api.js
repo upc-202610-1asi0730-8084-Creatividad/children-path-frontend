@@ -13,3 +13,4 @@ export class NotificationsApi extends BaseApi {
         return this.http.get(dashboardPath);
     }
 }
+
