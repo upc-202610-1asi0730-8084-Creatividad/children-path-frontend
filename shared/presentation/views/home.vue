@@ -3,7 +3,7 @@ import {computed} from "vue";
 import {useI18n} from "vue-i18n";
 import {useRouter} from "vue-router";
 import {navigationStore} from "@/shared/application/services/navigation.service.js";
-import {authStore} from "@/identity-access/application/services/auth.service.js";
+import {authStore} from "@/iam/application/services/auth.service.js";
 
 /**
  * Home page of the Children Path application.
@@ -17,12 +17,12 @@ const router = useRouter();
 
 const visibleModules = computed(() => navigationStore.visibleItems());
 
-const indicators = [
+const indicators = computed(() => [
   {icon: 'route',         labelKey: 'home.trips',    value: '12',  helper: 'In progress today'},
   {icon: 'school',        labelKey: 'home.students', value: '184', helper: 'Morning service'},
   {icon: 'notifications', labelKey: 'home.alerts',   value: '4',   helper: 'Requires attention'},
-  {icon: 'apps',          labelKey: 'home.modules',  value: '0',   helper: 'Enabled for role'}
-];
+  {icon: 'apps',          labelKey: 'home.modules',  value: String(visibleModules.value.length), helper: 'Enabled for role'}
+]);
 
 const goTo = (route) => router.push(route);
 </script>

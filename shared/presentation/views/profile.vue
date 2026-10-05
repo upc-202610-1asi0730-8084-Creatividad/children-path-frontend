@@ -1,20 +1,12 @@
 ﻿<script setup>
-import {useI18n} from "vue-i18n";
-
-/**
- * Profile page for the authenticated user.
- *
- * @remarks
- * Placeholder view showing profile status. Will be extended with real profile
- * data once the user-profiles bounded context is migrated.
- */
+import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 </script>
 
 <template>
   <section class="profile-card">
     <div class="avatar">CP</div>
-    <p>{{ t('profile.status') }}</p>
+    <p class="badge">{{ t('profile.status') }}</p>
     <h1>{{ t('profile.title') }}</h1>
     <span>{{ t('profile.subtitle') }}</span>
   </section>
@@ -33,7 +25,7 @@ const { t } = useI18n();
   background: var(--kw-blue-700); color: #fff;
   font-weight: 900; font-size: 1.8rem;
 }
-p {
+.badge {
   color: #8a6200; background: var(--kw-yellow-100);
   display: inline-flex; padding: 8px 16px; border-radius: 999px; font-weight: 900;
 }
